@@ -9,9 +9,9 @@
     %script{:type => "text/javascript", :src => "/javascripts/jquery.minitwitter.js"}
   %body
     #main
-      #header
+      %header
         %h1 EagleMQ
-      #menu
+      %nav
         %ul
           %li
             %a{:href => "/"}Home
@@ -23,7 +23,7 @@
             %a{:href => "/documentation"}Documentation
       #content
         = yield
-      #footer
+      %footer
         %a Developed by Stanislav Yakush &copy 2013
         %a{:href => "http://github.com/yakushstanislav/eaglemq.com"} GitHub
 

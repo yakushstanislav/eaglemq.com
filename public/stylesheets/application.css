@@ -1,11 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Orbitron);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
-#header h1 {
+header h1 {
   color: black;
   font-family: "Orbitron", sans-serif;
   font-size: 70px; }
 
-#menu {
+nav {
   display: inline-block;
   padding: 7px;
   padding-left: 20px;
@@ -13,22 +13,22 @@
   width: 70%;
   min-width: 800px; }
 
-#menu ul {
+nav ul {
   list-style: none;
   margin: 0;
   padding: 0.3em; }
 
-#menu li {
+nav li {
   float: left;
   margin-right: 5px; }
 
-#menu li a {
+nav li a {
   display: block;
   padding: 5px;
   color: black;
   text-decoration: none; }
 
-#menu li a:hover {
+nav li a:hover {
   color: white;
   background-color: #0242a8; }
 
@@ -87,7 +87,7 @@
   padding: 15px;
   color: #4d4c4c; }
 
-#footer {
+footer {
   display: inline-block;
   margin: 4px;
   padding-left: 20px;

@@ -22,6 +22,11 @@ get '/download' do
 end
 
 get '/documentation' do
-  body = RDiscount.new(File.read(MD_DIR + "README.md")).to_html
+  body = RDiscount.new(File.read(MD_DIR + "documentation.md")).to_html
   haml :documentation, :layout => :"layouts/application", :locals => {:body => body}
+end
+
+get '/license' do
+  body = RDiscount.new(File.read(MD_DIR + "license.md")).to_html
+  haml :license, :layout => :"layouts/application", :locals => {:body => body}
 end

@@ -48,8 +48,7 @@ nav li a:hover {
 #content table {
   font-size: 15px;
   padding: 15px;
-  margin: 10px;
-  border: #cccccc 1px solid; }
+  margin: 10px; }
 
 .console {
   color: #cccccc;
@@ -58,7 +57,7 @@ nav li a:hover {
   padding: 10px; }
 
 #text h1 {
-  background-color: #c7cefc;
+  background-color: #c4d2ff;
   padding: 3.5px;
   font-size: 24px;
   color: #4d4c4c; }
@@ -85,6 +84,7 @@ nav li a:hover {
 #text table {
   font-size: 15px;
   padding: 15px;
+  border: #cccccc 1px solid;
   color: #4d4c4c; }
 
 footer {

@@ -22,7 +22,7 @@ get '/download' do
 end
 
 get '/documentation' do
-  body = RDiscount.new(File.read(MD_DIR + "documentation.md")).to_html
+  body = RDiscount.new(File.read(MD_DIR + "documentation.md"), :generate_toc).to_html
   haml :documentation, :layout => :"layouts/application", :locals => {:body => body}
 end
 

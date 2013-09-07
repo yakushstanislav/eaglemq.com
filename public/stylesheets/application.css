@@ -122,3 +122,7 @@ footer {
 
 body {
   background: white; }
+
+.twitter-timeline {
+  display: table;
+  margin: 0 auto; }
